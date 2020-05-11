@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+
+<style>
+
+    .a {
+        color: red;
+        text-decoration: none;
+    }
+
+    a:hover {
+        text-decoration: underline;
+        color: white;
+        background-color: red;
+    }
+
+    a:active {
+        color: orange;
+    }
+
+
+    a:visited {
+        color:olivedrab;
+    }
+
+
+
+</style>
+
+
+<head>
+    <meta charset="utf-8" />
+    <title>Ejercicio de selectores</title>
+</head>
+<body>
+
+
+    <h1>Universidad de Buenos Aires</h1>
+    <ul>
+        <li><a href="">Presentación</a></li>
+        <li><a href="">Estudios</a></li>
+        <li><a href="">Alumnos</a></li>
+        <li><a href="">Deportes</a></li>
+        <li><a href="">Servicios</a></li>
+    </ul>
+</body>
+</html>
